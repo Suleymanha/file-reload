@@ -1,0 +1,26 @@
+body{
+    background-color: yellow;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container1{
+        width: 400px;
+        height: 400px;
+        border: black solid 1px;
+    
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .btn{
+            background-color: black;
+            color: white;
+            margin-left: 40px;
+            
+        }
+    }
+
+}
